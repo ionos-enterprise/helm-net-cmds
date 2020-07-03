@@ -1,0 +1,6 @@
+apiVersion: v2
+name: net-cmds
+description: Execute shell commands with CAP_NET_ADMIN and hostNetwork
+type: application
+version: 0.1.0
+appVersion: latest

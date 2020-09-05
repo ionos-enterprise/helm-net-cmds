@@ -1,5 +1,5 @@
 image:
-  repository: busybox
+  repository: alpine
   pullPolicy: IfNotPresent
 
 securityContext:
@@ -10,10 +10,10 @@ securityContext:
 resources:
   limits:
     cpu: 10m
-    memory: 16Mi
+    memory: 32Mi
   requests:
     cpu: 10m
-    memory: 16Mi
+    memory: 32Mi
 
 commands:
   - /bin/ip route add 192.168.40.0/24 via 10.14.80.12
